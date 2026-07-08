@@ -1,0 +1,13 @@
+# KiCad temporary files
+*.lck
+*.kicad_prl
+*-bak
+*_backup*
+*_restore_backup*
+.history/
+
+# Generated libraries
+downloaded_libraries.pretty/
+
+# macOS files
+.DS_Store

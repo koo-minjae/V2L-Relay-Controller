@@ -8,4 +8,8 @@
 	(lib (name "100SP1T1B4M2QE") (type "KiCad") (uri "/Users/minjaekoo/Downloads/LIB_100SP1T1B4M2QE/100SP1T1B4M2QE/KiCad/100SP1T1B4M2QE.kicad_sym") (options "") (descr ""))
 	(lib (name "2N4401") (type "KiCad") (uri "/Users/minjaekoo/Downloads/KiCad/2N4401.kicad_sym") (options "") (descr ""))
 	(lib (name "BC337-25") (type "KiCad") (uri "/Users/minjaekoo/Downloads/BC337-25.kicad_sym") (options "") (descr ""))
+	(lib (name "ERA-2ARB431X") (type "KiCad") (uri "/Users/minjaekoo/Downloads/LIB_ERA-2ARB431X/ERA-2ARB431X/KiCad/ERA-2ARB431X.kicad_sym") (options "") (descr ""))
+	(lib (name "CL05B104KBD6PJC") (type "KiCad") (uri "/Users/minjaekoo/Downloads/LIB_CL05B104KBD6PJC/CL05B104KBD6PJC/KiCad/CL05B104KBD6PJC.kicad_sym") (options "") (descr ""))
+	(lib (name "08052C223M4Z2A") (type "KiCad") (uri "/Users/minjaekoo/Downloads/LIB_08052C223M4Z2A/08052C223M4Z2A/KiCad/08052C223M4Z2A.kicad_sym") (options "") (descr ""))
+	(lib (name "G5Q-1A-DC12") (type "KiCad") (uri "/Users/minjaekoo/Downloads/LIB_G5Q-1A-DC12/G5Q-1A-DC12/KiCad/G5Q-1A-DC12.kicad_sym") (options "") (descr ""))
 )
