@@ -11360,7 +11360,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "downloaded_libraries:1729128"
+		(property "Footprint" "downloaded_libraries:1902547"
 			(at 363.22 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -14478,7 +14478,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "downloaded_libraries:1729128"
+		(property "Footprint" "downloaded_libraries:1902547"
 			(at 363.22 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -15033,7 +15033,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "downloaded_libraries:1729128"
+		(property "Footprint" "downloaded_libraries:1902547"
 			(at 486.41 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -16199,7 +16199,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "downloaded_libraries:1729128"
+		(property "Footprint" "downloaded_libraries:1902547"
 			(at 116.84 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -16281,7 +16281,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "downloaded_libraries:1729128"
+		(property "Footprint" "downloaded_libraries:1902547"
 			(at 363.22 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -16363,7 +16363,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "downloaded_libraries:1729128"
+		(property "Footprint" "downloaded_libraries:1902547"
 			(at 363.22 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -18189,7 +18189,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "downloaded_libraries:1729128"
+		(property "Footprint" "downloaded_libraries:1902547"
 			(at 486.41 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -23682,7 +23682,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "downloaded_libraries:1729128"
+		(property "Footprint" "downloaded_libraries:1902547"
 			(at 240.03 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -23912,7 +23912,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "downloaded_libraries:1729128"
+		(property "Footprint" "downloaded_libraries:1902547"
 			(at 116.84 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -25406,7 +25406,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "downloaded_libraries:1729128"
+		(property "Footprint" "downloaded_libraries:1902547"
 			(at 240.03 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -25798,7 +25798,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "downloaded_libraries:1729128"
+		(property "Footprint" "downloaded_libraries:1902547"
 			(at 240.03 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -26906,7 +26906,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "downloaded_libraries:1729128"
+		(property "Footprint" "downloaded_libraries:1902547"
 			(at 116.84 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -28682,7 +28682,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "downloaded_libraries:1729128"
+		(property "Footprint" "downloaded_libraries:1902547"
 			(at 486.41 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -29496,7 +29496,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "downloaded_libraries:1729128"
+		(property "Footprint" "downloaded_libraries:1902547"
 			(at 486.41 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -32037,7 +32037,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "downloaded_libraries:1729128"
+		(property "Footprint" "downloaded_libraries:1902547"
 			(at 116.84 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -33767,7 +33767,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "downloaded_libraries:1729128"
+		(property "Footprint" "downloaded_libraries:1902547"
 			(at 240.03 165.1 0)
 			(hide yes)
 			(show_name no)
