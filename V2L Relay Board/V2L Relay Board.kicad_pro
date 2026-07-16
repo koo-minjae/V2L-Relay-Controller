@@ -69,13 +69,7 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -146,7 +140,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.25,
+        "min_clearance": 0.0,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -158,7 +152,7 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.4,
+        "min_through_hole_diameter": 0.3,
         "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
@@ -209,12 +203,7 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0,
-        0.25,
-        1.0,
-        3.0
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -241,12 +230,7 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -511,7 +495,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.25,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -522,46 +506,10 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
+        "track_width": 0.2,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 2.5,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "HV_Terminals",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 3.0,
-        "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.25,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Power_12V",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.0,
-        "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
         "wire_width": 6
       }
     ],
@@ -570,156 +518,7 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "Power_12V",
-        "pattern": "/SW_12V"
-      },
-      {
-        "netclass": "Power_12V",
-        "pattern": "+12V"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "GND"
-      },
-      {
-        "netclass": "HV_Terminals",
-        "pattern": "Net-(J5-Pin_1)"
-      },
-      {
-        "netclass": "HV_Terminals",
-        "pattern": "Net-(J5-Pin_2)"
-      },
-      {
-        "netclass": "HV_Terminals",
-        "pattern": "Net-(J6-Pin_1)"
-      },
-      {
-        "netclass": "HV_Terminals",
-        "pattern": "Net-(J6-Pin_2)"
-      },
-      {
-        "netclass": "HV_Terminals",
-        "pattern": "Net-(J7-Pin_1)"
-      },
-      {
-        "netclass": "HV_Terminals",
-        "pattern": "Net-(J7-Pin_2)"
-      },
-      {
-        "netclass": "HV_Terminals",
-        "pattern": "Net-(J8-Pin_1)"
-      },
-      {
-        "netclass": "HV_Terminals",
-        "pattern": "Net-(J8-Pin_2)"
-      },
-      {
-        "netclass": "HV_Terminals",
-        "pattern": "Net-(J9-Pin_1)"
-      },
-      {
-        "netclass": "HV_Terminals",
-        "pattern": "Net-(J9-Pin_2)"
-      },
-      {
-        "netclass": "HV_Terminals",
-        "pattern": "Net-(J10-Pin_1)"
-      },
-      {
-        "netclass": "HV_Terminals",
-        "pattern": "Net-(J10-Pin_2)"
-      },
-      {
-        "netclass": "HV_Terminals",
-        "pattern": "Net-(J19-Pin_1)"
-      },
-      {
-        "netclass": "HV_Terminals",
-        "pattern": "Net-(J19-Pin_2)"
-      },
-      {
-        "netclass": "HV_Terminals",
-        "pattern": "Net-(J20-Pin_1)"
-      },
-      {
-        "netclass": "HV_Terminals",
-        "pattern": "Net-(J20-Pin_2)"
-      },
-      {
-        "netclass": "HV_Terminals",
-        "pattern": "Net-(J21-Pin_1)"
-      },
-      {
-        "netclass": "HV_Terminals",
-        "pattern": "Net-(J21-Pin_2)"
-      },
-      {
-        "netclass": "HV_Terminals",
-        "pattern": "Net-(J22-Pin_1)"
-      },
-      {
-        "netclass": "HV_Terminals",
-        "pattern": "Net-(J22-Pin_2)"
-      },
-      {
-        "netclass": "HV_Terminals",
-        "pattern": "Net-(J23-Pin_1)"
-      },
-      {
-        "netclass": "HV_Terminals",
-        "pattern": "Net-(J23-Pin_2)"
-      },
-      {
-        "netclass": "HV_Terminals",
-        "pattern": "Net-(J24-Pin_1)"
-      },
-      {
-        "netclass": "HV_Terminals",
-        "pattern": "Net-(J24-Pin_2)"
-      },
-      {
-        "netclass": "HV_Terminals",
-        "pattern": "Net-(J25-Pin_1)"
-      },
-      {
-        "netclass": "HV_Terminals",
-        "pattern": "Net-(J25-Pin_2)"
-      },
-      {
-        "netclass": "HV_Terminals",
-        "pattern": "Net-(J26-Pin_1)"
-      },
-      {
-        "netclass": "HV_Terminals",
-        "pattern": "Net-(J26-Pin_2)"
-      },
-      {
-        "netclass": "HV_Terminals",
-        "pattern": "Net-(J27-Pin_1)"
-      },
-      {
-        "netclass": "HV_Terminals",
-        "pattern": "Net-(J27-Pin_2)"
-      },
-      {
-        "netclass": "HV_Terminals",
-        "pattern": "Net-(J28-Pin_1)"
-      },
-      {
-        "netclass": "HV_Terminals",
-        "pattern": "Net-(J28-Pin_2)"
-      },
-      {
-        "netclass": "HV_Terminals",
-        "pattern": "Net-(J29-Pin_1)"
-      },
-      {
-        "netclass": "HV_Terminals",
-        "pattern": "Net-(J29-Pin_2)"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
@@ -799,66 +598,12 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Name",
-          "name": "Manufacturer_Name",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Part_Number",
-          "name": "Manufacturer_Part_Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Part Number",
-          "name": "Mouser Part Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Price/Stock",
-          "name": "Mouser Price/Stock",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Device",
-          "name": "Sim.Device",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Height",
-          "name": "Height",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "",
+      "name": "Default Editing",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -903,7 +648,7 @@
         "uuid": "84643f78-c0f1-4d0e-8c23-539a59fa9496"
       }
     ],
-    "used_designators": "Q1-2,Q4",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
