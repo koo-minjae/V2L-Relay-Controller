@@ -4724,16 +4724,6 @@
 		)
 		(uuid "136a0fdb-1357-40c8-86a3-2e665007cd97")
 	)
-	(text "COM"
-		(exclude_from_sim no)
-		(at 16.51 378.714 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "2844b233-9e16-42fe-b5cb-aa1f8c7b7f2c")
-	)
 	(text "Y"
 		(exclude_from_sim no)
 		(at 178.054 170.688 0)
@@ -5325,10 +5315,6 @@
 	(no_connect
 		(at 198.12 360.68)
 		(uuid "a75149ab-2d8f-495f-867a-feea591b725e")
-	)
-	(no_connect
-		(at 21.59 381)
-		(uuid "ab13e0ee-5188-4725-a02e-f05c5c110559")
 	)
 	(no_connect
 		(at 198.12 355.6)
@@ -9174,6 +9160,16 @@
 	)
 	(wire
 		(pts
+			(xy 16.51 381) (xy 21.59 381)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de368aff-d87b-4ae9-a370-e4f052b2eb33")
+	)
+	(wire
+		(pts
 			(xy 201.93 237.49) (xy 201.93 231.14)
 		)
 		(stroke
@@ -9971,6 +9967,16 @@
 			(justify left bottom)
 		)
 		(uuid "733f5843-2cb9-43a2-87a3-12467a71b5d8")
+	)
+	(label "+12V"
+		(at 16.51 381 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "737f6156-8adf-4d15-8a16-8bf4b8bdd5e3")
 	)
 	(label "PA11"
 		(at 21.59 207.01 0)
